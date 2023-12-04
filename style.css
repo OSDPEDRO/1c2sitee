@@ -68,7 +68,7 @@ nav a:hover {
 
 /*comportamento ativo para mudar a cor da borda*/
 .produtos li:active {
-	border-color: #a108bc;/*cor das 4 bordas (active:alterada com o click do mouse)*/
+	border-color: #45cddf;/*cor das 4 bordas (active:alterada com o click do mouse)*/
 }
 
 /*alterar a fonte e cor do titulo do produto quando passar o cursor do mouse*/
