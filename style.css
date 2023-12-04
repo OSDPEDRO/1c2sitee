@@ -1,0 +1,63 @@
+header{
+  background:#c7afaf;
+  ppadding: 20px 0;
+}
+
+.caixa {
+    position:relative;
+    width: 940px
+    margin: 0 auto;
+}
+
+maing{
+    background:#fodede;
+}
+  
+ nav {
+    position: abulute;
+    top: 110px;
+    rigth: 0;
+    }   
+  
+nav li {
+    display:inline;
+    margim:0 0 0 15px;
+}
+    
+nav a {
+    text-trsnsform:uppercase;
+     color:#000000;
+    font-weigth: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+]
+
+nav a:hover {
+    color :#a108bc;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+
+
+border-color:#000000 ; cor da borda
+border-wigth: 2px ;  tamanho da borda,largura
+border:-style: solid ;  borda solida
+border: 2px solid
+
+
+}
