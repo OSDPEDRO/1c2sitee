@@ -1,5 +1,5 @@
 header {
-	background: #c7afaf;/*cor de fundo*/
+	background: #db0c0c;/*cor de fundo*/
 	padding: 20px 0;/*espaço em torno de um elemento*/
 }
 
@@ -10,7 +10,7 @@ header {
 }
 
 main {
-	background: #92c4be;
+	background: #09dac1;
 }
 
 nav {
@@ -26,7 +26,7 @@ nav li {
 
 nav a {
 	text-transform: uppercase;/*texto em maiusculo*/
-	color: #000000;/*cor do texto*/
+	color: rgba(25, 26, 23, 0.769)0, 0.604);/*cor do texto*/
 	font-weight: bold;/* fonte negrito*/
 	font-size: 22px;/* tamanho da fonte*/
 	text-decoration: none;/*retirar decoração padrão o sublinhado*/
@@ -34,7 +34,7 @@ nav a {
 
 /*passando o mouse sobre o elemento(pseudo-classes)*/
 nav a:hover { 
-	color:#a108bc;  /* colocando a cor*/
+	color:rgb(221, 193, 226);  /* colocando a cor*/
 	text-decoration: underline; /*texto sublinhado quando o mouse estiver posicionado*/
 }
 
@@ -57,7 +57,7 @@ nav a:hover {
 	border-color:#000000 ;  cor da borda
 	border-width: 2px ;     tamanho da borda,largura
 	border-style: solid ;   borda sólida*/
-	border: 2px solid #000000;/*largura estilo e cor de todas as 4 bordas*/
+	border: 2px solid #a84343;/*largura estilo e cor de todas as 4 bordas*/
 	border-radius: 10px;/*bordas aredondads*/
 }	
 
@@ -68,13 +68,13 @@ nav a:hover {
 
 /*comportamento ativo para mudar a cor da borda*/
 .produtos li:active {
-	border-color: #a108bc;/*cor das 4 bordas (active:alterada com o click do mouse)*/
+	border-color: #000000;/*cor das 4 bordas (active:alterada com o click do mouse)*/
 }
 
 /*alterar a fonte e cor do titulo do produto quando passar o cursor do mouse*/
 .produtos li:hover h2{
 	font-size: 40px; /*tamanho da fonte*/
-	color: #a108bc; /* cor*/
+	color: #43064e; /* cor*/
 }
 
 .produtos h2 {
@@ -96,11 +96,11 @@ nav a:hover {
 footer {
 	text-align: center; /* centralizado*/
 	/*background: url("bg.jpg");*/
-	background: #c7afaf; /*cor de fundo*/
+	background: #3f1515; /*cor de fundo*/
 	padding: 40px 0; /*espaçamento interno*/
 }
 .copyright {
-	color: #FFFFFF; /*cor*/
+	color: #ff0000; /*cor*/
 	font-size: 13px; /*tamanho da fonte*/
 	margin: 20px 0 0; /*margin superior 20px*/
 
